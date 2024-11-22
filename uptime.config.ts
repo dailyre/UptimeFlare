@@ -59,6 +59,12 @@ const workerConfig = {
       statusPageLink: 'https://example.com',
       timeout: 5000,
     },
+    {
+      id: 'google_monitor',
+      name: 'My Google Monitor',
+      method: 'GET',
+      target: 'https://www.google.com'
+    },
   ],
   notification: {
     // [Optional] apprise API server URL
